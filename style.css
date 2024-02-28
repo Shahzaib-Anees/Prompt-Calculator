@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: rgb(17, 15, 40);
+    background: linear-gradient(180deg, rgba(17, 15, 40, 1) 0%, rgba(15, 21, 46, 1) 27%, rgba(13, 37, 75, 1) 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --pri-font: "Anta";
+    --head-font: "Roboto"
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 13% 10%;
+}
+
+.container>h3 {
+    width: 90%;
+    color: #66fcf1;
+    margin: 0%;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: var(--head-font);
+    text-align: center;
+    line-height: 55px;
+}
+
+.container>p {
+    width: 90%;
+    margin: 0%;
+    font-size: 1.4rem;
+    font-family: var(--pri-font);
+    color: #c5c6c7;
+    text-align: center;
+    line-height: 40px;
+}
+
+.container>a {
+    width: fit-content;
+    border: 2px solid #45a29e;
+    text-decoration: none;
+    color: #c5c6c7;
+    padding: 5px 20px;
+}
+
+.container>a>p {
+    font-family: var(--pri-font);
+    font-size: 1.1rem;
+    font-weight: 800;
+}
